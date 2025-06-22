@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ project_name }}</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>🚀 {{ project_name }}</h1>
+    <input
+      type="text"
+      id="crypto"
+      placeholder="Digite (ex: bitcoin, ethereum)"
+      autocomplete="off"
+    />
+    <button onclick="buscar()">Buscar</button>
+    <div class="resultado" id="resultado"></div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
